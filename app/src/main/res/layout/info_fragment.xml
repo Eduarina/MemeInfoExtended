@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/Texto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="67dp"
+            android:paddingTop="40dp"
+            android:text="LOL GUY"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cereal_guy"
+            android:id="@+id/imagen1"
+            android:scaleType="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Texto2"
+            android:text="LOL Guy is a rage comic character that if often used to indicate laugther and insultos "
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/darker_gray"
+            android:paddingTop="410dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Texto3"
+            android:text="htttp://Aqui_va_una_ruta.com"
+            android:textSize="20dp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingTop="530dp"
+
+            />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+
